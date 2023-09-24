@@ -1,6 +1,13 @@
-public class Main {
+import menu.Menu;
+
+import java.util.Scanner;
+
+public class
+Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Menu menu = new Menu();
+        menu.displayMenu();
     }
 
 }
